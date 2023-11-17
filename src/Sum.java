@@ -10,12 +10,12 @@ public class Sum {
         System.out.println("Sum of numbers = " + sumOfNumbers(number));
 
     }
-        public static int sumOfNumbers(int number){
-
-            int sum = 0;
-            for (int i = 1; i <= number;i++){
-                sum+= i;
-            }
-            return sum;
+    public static int sumOfNumbers(int number) {
+        int sum = 0;
+        while (number != 0) {
+            sum += number % 10;
+            number /= 10;
         }
+        return sum;
+    }
 }

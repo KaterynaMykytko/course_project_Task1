@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AjcSettings">
     <option name="ajcPath" value="$PROJECT_DIR$/../../JBS/Projects/vantage/ext-libs/aspectjtools-1.8.9.jar" />
